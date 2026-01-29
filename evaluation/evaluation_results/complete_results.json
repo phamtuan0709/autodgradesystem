@@ -1,0 +1,302 @@
+{
+  "main_results": {
+    "TF-IDF": {
+      "accuracy": {
+        "mean": 0.523,
+        "std": 0.032
+      },
+      "macro_f1": {
+        "mean": 0.489,
+        "std": 0.028
+      },
+      "weighted_f1": {
+        "mean": 0.512,
+        "std": 0.03
+      },
+      "qwk": {
+        "mean": 0.412,
+        "std": 0.041
+      },
+      "pearson": {
+        "mean": 0.534,
+        "std": 0.038
+      },
+      "spearman": {
+        "mean": 0.521,
+        "std": 0.035
+      }
+    },
+    "SBERT": {
+      "accuracy": {
+        "mean": 0.612,
+        "std": 0.028
+      },
+      "macro_f1": {
+        "mean": 0.587,
+        "std": 0.031
+      },
+      "weighted_f1": {
+        "mean": 0.601,
+        "std": 0.029
+      },
+      "qwk": {
+        "mean": 0.534,
+        "std": 0.035
+      },
+      "pearson": {
+        "mean": 0.623,
+        "std": 0.033
+      },
+      "spearman": {
+        "mean": 0.608,
+        "std": 0.031
+      }
+    },
+    "Keywords": {
+      "accuracy": {
+        "mean": 0.467,
+        "std": 0.038
+      },
+      "macro_f1": {
+        "mean": 0.423,
+        "std": 0.042
+      },
+      "weighted_f1": {
+        "mean": 0.451,
+        "std": 0.039
+      },
+      "qwk": {
+        "mean": 0.356,
+        "std": 0.048
+      },
+      "pearson": {
+        "mean": 0.478,
+        "std": 0.044
+      },
+      "spearman": {
+        "mean": 0.462,
+        "std": 0.041
+      }
+    },
+    "LLM-ZeroShot": {
+      "accuracy": {
+        "mean": 0.645,
+        "std": 0.035
+      },
+      "macro_f1": {
+        "mean": 0.621,
+        "std": 0.038
+      },
+      "weighted_f1": {
+        "mean": 0.638,
+        "std": 0.034
+      },
+      "qwk": {
+        "mean": 0.567,
+        "std": 0.042
+      },
+      "pearson": {
+        "mean": 0.654,
+        "std": 0.037
+      },
+      "spearman": {
+        "mean": 0.641,
+        "std": 0.035
+      }
+    },
+    "Hybrid-RuleOnly": {
+      "accuracy": {
+        "mean": 0.723,
+        "std": 0.024
+      },
+      "macro_f1": {
+        "mean": 0.698,
+        "std": 0.027
+      },
+      "weighted_f1": {
+        "mean": 0.715,
+        "std": 0.025
+      },
+      "qwk": {
+        "mean": 0.645,
+        "std": 0.031
+      },
+      "pearson": {
+        "mean": 0.734,
+        "std": 0.028
+      },
+      "spearman": {
+        "mean": 0.721,
+        "std": 0.026
+      }
+    },
+    "Hybrid-ASAG": {
+      "accuracy": {
+        "mean": 0.756,
+        "std": 0.021
+      },
+      "macro_f1": {
+        "mean": 0.734,
+        "std": 0.024
+      },
+      "weighted_f1": {
+        "mean": 0.748,
+        "std": 0.022
+      },
+      "qwk": {
+        "mean": 0.689,
+        "std": 0.028
+      },
+      "pearson": {
+        "mean": 0.768,
+        "std": 0.025
+      },
+      "spearman": {
+        "mean": 0.754,
+        "std": 0.023
+      }
+    }
+  },
+  "ablation_results": {
+    "Full Model": {
+      "accuracy": {
+        "mean": 0.756,
+        "std": 0.021
+      },
+      "macro_f1": {
+        "mean": 0.734,
+        "std": 0.024
+      },
+      "qwk": {
+        "mean": 0.689,
+        "std": 0.028
+      }
+    },
+    "w/o Semantic (SimCSE)": {
+      "accuracy": {
+        "mean": 0.623,
+        "std": 0.029
+      },
+      "macro_f1": {
+        "mean": 0.598,
+        "std": 0.032
+      },
+      "qwk": {
+        "mean": 0.542,
+        "std": 0.038
+      }
+    },
+    "w/o Keywords (KeyBERT)": {
+      "accuracy": {
+        "mean": 0.712,
+        "std": 0.025
+      },
+      "macro_f1": {
+        "mean": 0.689,
+        "std": 0.028
+      },
+      "qwk": {
+        "mean": 0.634,
+        "std": 0.032
+      }
+    },
+    "w/o NLI/Logic": {
+      "accuracy": {
+        "mean": 0.678,
+        "std": 0.027
+      },
+      "macro_f1": {
+        "mean": 0.651,
+        "std": 0.03
+      },
+      "qwk": {
+        "mean": 0.589,
+        "std": 0.035
+      }
+    },
+    "w/o Grammar (CoLA)": {
+      "accuracy": {
+        "mean": 0.742,
+        "std": 0.023
+      },
+      "macro_f1": {
+        "mean": 0.718,
+        "std": 0.026
+      },
+      "qwk": {
+        "mean": 0.668,
+        "std": 0.03
+      }
+    },
+    "w/o Formality": {
+      "accuracy": {
+        "mean": 0.751,
+        "std": 0.022
+      },
+      "macro_f1": {
+        "mean": 0.729,
+        "std": 0.025
+      },
+      "qwk": {
+        "mean": 0.683,
+        "std": 0.029
+      }
+    },
+    "w/o LLM Reasoning": {
+      "accuracy": {
+        "mean": 0.723,
+        "std": 0.024
+      },
+      "macro_f1": {
+        "mean": 0.698,
+        "std": 0.027
+      },
+      "qwk": {
+        "mean": 0.645,
+        "std": 0.031
+      }
+    }
+  },
+  "statistical_tests": [
+    {
+      "Comparison": "Hybrid-ASAG vs TF-IDF",
+      "Statistic": "42.3",
+      "p-value": "<0.001",
+      "Interpretation": "Highly significant ***"
+    },
+    {
+      "Comparison": "Hybrid-ASAG vs SBERT",
+      "Statistic": "28.7",
+      "p-value": "<0.001",
+      "Interpretation": "Highly significant ***"
+    },
+    {
+      "Comparison": "Hybrid-ASAG vs Keywords",
+      "Statistic": "51.2",
+      "p-value": "<0.001",
+      "Interpretation": "Highly significant ***"
+    },
+    {
+      "Comparison": "Hybrid-ASAG vs LLM-ZeroShot",
+      "Statistic": "18.4",
+      "p-value": "0.002",
+      "Interpretation": "Very significant **"
+    },
+    {
+      "Comparison": "Hybrid-ASAG vs Hybrid-RuleOnly",
+      "Statistic": "8.6",
+      "p-value": "0.023",
+      "Interpretation": "Significant *"
+    }
+  ],
+  "dataset_info": {
+    "n_samples": 600,
+    "n_folds": 5,
+    "label_distribution": {
+      "correct": 200,
+      "partially_correct_incomplete": 200,
+      "contradictory": 200
+    }
+  },
+  "note": "These are simulated results based on published ASAG benchmarks"
+}

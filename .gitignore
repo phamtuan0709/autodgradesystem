@@ -1,0 +1,31 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+.env
+.env.*
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# OS/editor
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Large model / artifacts (keep data/results if you want tracked)
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors

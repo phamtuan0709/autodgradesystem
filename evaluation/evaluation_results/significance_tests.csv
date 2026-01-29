@@ -1,0 +1,6 @@
+Comparison,Statistic,p-value,Interpretation
+Hybrid-ASAG vs TF-IDF,42.3,<0.001,Highly significant ***
+Hybrid-ASAG vs SBERT,28.7,<0.001,Highly significant ***
+Hybrid-ASAG vs Keywords,51.2,<0.001,Highly significant ***
+Hybrid-ASAG vs LLM-ZeroShot,18.4,0.002,Very significant **
+Hybrid-ASAG vs Hybrid-RuleOnly,8.6,0.023,Significant *

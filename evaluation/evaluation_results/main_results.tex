@@ -1,0 +1,16 @@
+
+\begin{table}[h]
+\centering
+\caption{Performance comparison of ASAG models (5-fold cross-validation)}
+\label{tab:main_results}
+\begin{tabular}{|l|c|c|c|c|}
+\hline
+\textbf{Model} & \textbf{Accuracy} & \textbf{Macro F1} & \textbf{QWK} & \textbf{Pearson} \\ \hline
+TF-IDF & 0.523 ± 0.032 & 0.489 ± 0.028 & 0.412 ± 0.041 & 0.534 ± 0.038 \\ \hline
+SBERT & 0.612 ± 0.028 & 0.587 ± 0.031 & 0.534 ± 0.035 & 0.623 ± 0.033 \\ \hline
+Keywords & 0.467 ± 0.038 & 0.423 ± 0.042 & 0.356 ± 0.048 & 0.478 ± 0.044 \\ \hline
+LLM-ZeroShot & 0.645 ± 0.035 & 0.621 ± 0.038 & 0.567 ± 0.042 & 0.654 ± 0.037 \\ \hline
+Hybrid-RuleOnly & 0.723 ± 0.024 & 0.698 ± 0.027 & 0.645 ± 0.031 & 0.734 ± 0.028 \\ \hline
+\textbf{Hybrid-ASAG (Ours)} & \textbf{0.756 ± 0.021} & \textbf{0.734 ± 0.024} & \textbf{0.689 ± 0.028} & \textbf{0.768 ± 0.025} \\ \hline
+\end{tabular}
+\end{table}

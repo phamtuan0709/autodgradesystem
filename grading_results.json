@@ -1,0 +1,161 @@
+[
+  {
+    "metrics": {
+      "semantic_score": 0.9641797542572021,
+      "coverage_score": 0.8,
+      "missing_keywords": [
+        "convert"
+      ],
+      "formality_score": 0.9999161958694458,
+      "grammar_score": 0.9726985692977905,
+      "logic_score": 0.7021696439844164,
+      "logic_details": {
+        "contradiction": 5.491996489581652e-05,
+        "entailment": 0.01522734109312296,
+        "neutral": 0.9847176671028137,
+        "backward_entailment": 0.0021957147400826216,
+        "backward_contradiction": 1.669134508119896e-05,
+        "backward_neutral": 0.997787594795227
+      },
+      "final_grade": 88.78
+    },
+    "feedback": {
+      "tags": [
+        "Correct"
+      ],
+      "explanation": "The student's answer correctly describes the process of photosynthesis by mentioning that plants use sunlight, CO2, and water to make glucose and oxygen. However, the student missed the crucial step of 'convert' in the description of the process. Additionally, the student did not mention the role of",
+      "suggestion": "To improve, the student should include the word 'convert' to accurately describe the process. Also, it would be beneficial to explicitly state that chlorophyll is responsible for capturing the light e",
+      "raw_response": "The student's answer correctly describes the process of photosynthesis by mentioning that plants use sunlight, CO2, and water to make glucose and oxygen. However, the student missed the crucial step of 'convert' in the description of the process. Additionally, the student did not mention the role of chlorophyll in capturing light energy.\", \"suggestion\": \"To improve, the student should include the word 'convert' to accurately describe the process. Also, it would be beneficial to explicitly state that chlorophyll is responsible for capturing the light energy during photosynthesis.\"}",
+      "parse_success": true
+    },
+    "is_valid": true,
+    "skip_reason": null
+  },
+  {
+    "metrics": {
+      "semantic_score": 0.7643053531646729,
+      "coverage_score": 0.4,
+      "missing_keywords": [
+        "process",
+        "glucose",
+        "convert"
+      ],
+      "formality_score": 0.9999194145202637,
+      "grammar_score": 0.9749260544776917,
+      "logic_score": 0.7240980741567911,
+      "logic_details": {
+        "contradiction": 4.010194606962614e-05,
+        "entailment": 0.9776250123977661,
+        "neutral": 0.022334931418299675,
+        "backward_entailment": 0.09444022178649902,
+        "backward_contradiction": 2.6810934286913835e-05,
+        "backward_neutral": 0.9055330157279968
+      },
+      "final_grade": 77.26
+    },
+    "feedback": {
+      "tags": [
+        "Partially Correct",
+        "Missing Concepts"
+      ],
+      "explanation": "The student's answer is partially correct but lacks several key elements. They mention that plants 'make their own food using light,' which is accurate, but they do not provide the full process of photosynthesis as described in the reference answer. Additionally, they do not include the terms 'proce",
+      "suggestion": "To improve, the student should incorporate the complete process of photosynthesis, including the conversion of sunlight, carbon dioxide, and water into glucose and oxygen using chlorophyll. They shoul",
+      "raw_response": "The student's answer is partially correct but lacks several key elements. They mention that plants 'make their own food using light,' which is accurate, but they do not provide the full process of photosynthesis as described in the reference answer. Additionally, they do not include the terms 'process,' 'glucose,' and 'convert.'\", \"suggestion\": \"To improve, the student should incorporate the complete process of photosynthesis, including the conversion of sunlight, carbon dioxide, and water into glucose and oxygen using chlorophyll. They should also use the term 'process' to describe the entire mechanism and include 'glucose' and 'convert' to accurately reflect the reference answer.\"}",
+      "parse_success": true
+    },
+    "is_valid": true,
+    "skip_reason": null
+  },
+  {
+    "metrics": {
+      "semantic_score": 0.782503604888916,
+      "coverage_score": 0.4,
+      "missing_keywords": [
+        "process",
+        "convert",
+        "water glucose"
+      ],
+      "formality_score": 0.9999223947525024,
+      "grammar_score": 0.9736218452453613,
+      "logic_score": 2.201199531555176e-05,
+      "logic_details": {
+        "contradiction": 0.999853253364563,
+        "entailment": 8.305560186272487e-06,
+        "neutral": 0.0001383511844323948,
+        "backward_entailment": 4.7669713239884004e-05,
+        "backward_contradiction": 0.9988986253738403,
+        "backward_neutral": 0.0010536971967667341
+      },
+      "final_grade": 40.0
+    },
+    "feedback": {
+      "tags": [
+        "Incorrect",
+        "Logical Error",
+        "Factual Error",
+        "Missing Concepts"
+      ],
+      "explanation": "The student's answer does not correctly explain the process of photosynthesis as defined in the reference answer. It incorrectly states that 'animals eat plants to get energy' which contradicts the reference answer that describes plants converting sunlight, carbon dioxide, and water into glucose and",
+      "suggestion": "To improve, the student should include the term 'process' at the beginning of their answer, then describe the steps involved in converting sunlight, carbon dioxide, and water into glucose and oxygen. ",
+      "raw_response": "The student's answer does not correctly explain the process of photosynthesis as defined in the reference answer. It incorrectly states that 'animals eat plants to get energy' which contradicts the reference answer that describes plants converting sunlight, carbon dioxide, and water into glucose and oxygen. Additionally, the student's answer omits key terms such as 'process,' 'convert,' 'water,' and 'glucose.'\", \"suggestion\": \"To improve, the student should include the term 'process' at the beginning of their answer, then describe the steps involved in converting sunlight, carbon dioxide, and water into glucose and oxygen. They should also incorporate the word 'convert' to accurately describe the action of these substances being transformed. Furthermore, mentioning 'water' and 'glucose' will help complete the description of the process.\"}",
+      "parse_success": true
+    },
+    "is_valid": true,
+    "skip_reason": null
+  },
+  {
+    "metrics": {
+      "semantic_score": 0.7978945374488831,
+      "coverage_score": 1.0,
+      "missing_keywords": [],
+      "formality_score": 0.001051211729645729,
+      "grammar_score": 0.2603739798069,
+      "logic_score": 0.5620803328987677,
+      "logic_details": {
+        "contradiction": 0.191533625125885,
+        "entailment": 0.0014900722308084369,
+        "neutral": 0.8069763779640198,
+        "backward_entailment": 0.951358437538147,
+        "backward_contradiction": 0.005991324782371521,
+        "backward_neutral": 0.04265022650361061
+      },
+      "final_grade": 52.43
+    },
+    "feedback": {
+      "tags": [
+        "Partially Correct",
+        "Grammar Error"
+      ],
+      "explanation": "The student's answer describes the basic idea of the water cycle but lacks the key components and terminology. The sentence 'water go up to sky' is not accurate as water does not go up to the sky; instead, it evaporates from the surface of the Earth. Also, the phrase 'this happen many time' should b",
+      "suggestion": "The student should include the terms 'evaporation,' 'condensation,' and 'precipitation' in their answer. They could also rephrase their sentences to ensure clarity and accuracy, such as 'Water evapora",
+      "raw_response": "The student's answer describes the basic idea of the water cycle but lacks the key components and terminology. The sentence 'water go up to sky' is not accurate as water does not go up to the sky; instead, it evaporates from the surface of the Earth. Also, the phrase 'this happen many time' should be corrected to 'this happens many times.'\", \"suggestion\": \"The student should include the terms 'evaporation,' 'condensation,' and 'precipitation' in their answer. They could also rephrase their sentences to ensure clarity and accuracy, such as 'Water evaporates from the surface of the Earth and rises into the atmosphere, where it condenses into clouds and eventually falls back to the Earth as precipitation.'\"}",
+      "parse_success": true
+    },
+    "is_valid": true,
+    "skip_reason": null
+  },
+  {
+    "metrics": {
+      "semantic_score": 0.125,
+      "coverage_score": 0.125,
+      "missing_keywords": [],
+      "formality_score": 0.5,
+      "grammar_score": 0.5,
+      "logic_score": 0.125,
+      "logic_details": {},
+      "final_grade": 27.5
+    },
+    "feedback": {
+      "tags": [
+        "Incomplete",
+        "Vague Expression"
+      ],
+      "explanation": "Answer too short (2 words). Cannot fully evaluate.",
+      "suggestion": "Please provide a more detailed and complete answer.",
+      "raw_response": "",
+      "parse_success": true
+    },
+    "is_valid": true,
+    "skip_reason": null
+  }
+]

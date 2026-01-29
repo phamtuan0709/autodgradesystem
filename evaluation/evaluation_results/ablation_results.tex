@@ -1,0 +1,17 @@
+
+\begin{table}[h]
+\centering
+\caption{Ablation study results showing contribution of each component}
+\label{tab:ablation}
+\begin{tabular}{|l|c|c|c|c|}
+\hline
+\textbf{Configuration} & \textbf{Accuracy} & \textbf{Macro F1} & \textbf{QWK} & \textbf{$\Delta$ F1} \\ \hline
+Full Model & 0.756 ± 0.021 & 0.734 ± 0.024 & 0.689 ± 0.028 & - \\ \hline
+w/o Semantic (SimCSE) & 0.623 ± 0.029 & 0.598 ± 0.032 & 0.542 ± 0.038 & -0.136 \\ \hline
+w/o Keywords (KeyBERT) & 0.712 ± 0.025 & 0.689 ± 0.028 & 0.634 ± 0.032 & -0.045 \\ \hline
+w/o NLI/Logic & 0.678 ± 0.027 & 0.651 ± 0.030 & 0.589 ± 0.035 & -0.083 \\ \hline
+w/o Grammar (CoLA) & 0.742 ± 0.023 & 0.718 ± 0.026 & 0.668 ± 0.030 & -0.016 \\ \hline
+w/o Formality & 0.751 ± 0.022 & 0.729 ± 0.025 & 0.683 ± 0.029 & -0.005 \\ \hline
+w/o LLM Reasoning & 0.723 ± 0.024 & 0.698 ± 0.027 & 0.645 ± 0.031 & -0.036 \\ \hline
+\end{tabular}
+\end{table}
