@@ -29,3 +29,6 @@ venv/
 *.ckpt
 *.onnx
 *.safetensors
+
+# AI Agent instructions and localized context
+AGENTS.md
