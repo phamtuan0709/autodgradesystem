@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Outfit:wght@400;600&display=swap');
+
+@import "tailwindcss";
+
+
+@layer base {
+  html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #f1f5f9; /* slate-100: matte soft grey */
+    min-height: 100vh;
+    font-family: 'Outfit', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    color: #334155; /* slate-700 */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+  }
+
+  /* Force exactly 2 font weights globally */
+  * {
+    font-weight: 400; /* Default weight */
+  }
+
+  h1, h2, h3, h4, h5, h6, th, strong, button, .semibold-text {
+    font-weight: 600; /* Bold/Semibold weight */
+  }
+
+  /* Custom Soft Light Scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #cbd5e1; /* slate-300 */
+    border-radius: 9999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8; /* slate-400 */
+  }
+}
+
+/* Light glare-free card structure */
+.glass-panel {
+  background: #ffffff;
+  border: 1px solid #e2e8f0; /* slate-200 */
+  box-shadow: 0 4px 12px 0 rgba(148, 163, 184, 0.06), 0 1px 3px 0 rgba(148, 163, 184, 0.04);
+}
+
+.glow-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.glow-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(800px circle at var(--x, 0px) var(--y, 0px), rgba(99, 102, 241, 0.03), transparent 50%);
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* Limit transition states */
+.transition-standard {
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Custom radial progress animation */
+@keyframes progress {
+  from {
+    stroke-dashoffset: 283;
+  }
+  to {
+    stroke-dashoffset: var(--offset);
+  }
+}
+
+.progress-circle {
+  stroke-dasharray: 283;
+  stroke-dashoffset: var(--offset);
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+  transition: stroke-dashoffset 0.8s ease-in-out;
+}
